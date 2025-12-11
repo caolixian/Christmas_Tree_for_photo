@@ -1,2 +1,0 @@
-# Christmas_Tree_for_photo
-Christmas_Tree_for_photo
