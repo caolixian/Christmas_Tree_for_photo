@@ -189,7 +189,6 @@ const PhotoOrnaments = ({ state, textures, count, isMobile }: any) => {
 const ChristmasElements = ({ state, count }: any) => {
   const groupRef = useRef<THREE.Group>(null);
   const boxGeometry = useMemo(() => new THREE.BoxGeometry(0.6, 0.6, 0.6), []);
-  const sphereGeometry = useMemo(() => new THREE.SphereGeometry(0.4, 8, 8), []);
 
   const data = useMemo(() => new Array(count).fill(0).map(() => {
     const chaosPos = new THREE.Vector3((Math.random()-0.5)*40, (Math.random()-0.5)*40, (Math.random()-0.5)*40);
