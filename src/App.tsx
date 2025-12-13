@@ -43,7 +43,7 @@ const BASE_CONFIG = {
   },
   tree: { height: 22, radius: 9 },
   photos: {
-    body: ['/photos/top.jpg', ...Array.from({ length: 31 }, (_, i) => `/photos/${i + 1}.jpg`)]
+    body: ['/photos/top.jpg', ...Array.from({ length: 25 }, (_, i) => `/photos/${i + 1}.jpg`)]
   }
 };
 
